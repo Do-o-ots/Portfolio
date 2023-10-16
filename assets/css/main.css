@@ -2593,11 +2593,12 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/Presentation.png");
+		background-image: url("images/overlay.png"), url("../../images/Arrière-plan.jpg");
 		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
+		background-repeat: repeat,								repeat;
 		background-size: auto,								150%;
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(255, 255, 255, 0.5); 
+		
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
@@ -2624,7 +2625,7 @@ input, select, textarea {
 		}
 
 		#header strong, #header b {
-			color: #ffe98b;
+			color: #f9d5a7;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2632,7 +2633,7 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: #fff2bb;
+			color: #f4eade;
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2650,11 +2651,11 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color:#fff2bb;
+			color:#f9d5a7;
 		}
 
 	#footer .copyright {
-		color:#fff2bb;
+		color:#f9d5a7;
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
